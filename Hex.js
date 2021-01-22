@@ -37,7 +37,7 @@ class Hex {
 }
 
 class HexDimensions {
-  constructor(s) {
+  constructor(s=5) {
     this.s = s;
     this.w = sqrt(3) * s;
     this.h = 2 * s;
